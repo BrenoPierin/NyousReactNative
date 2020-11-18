@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, View, FlatList, StyleSheet, Text } from 'react-native';
 
 //Navigations
 import { createDrawerNavigator } from '@react-navigation/drawer';
